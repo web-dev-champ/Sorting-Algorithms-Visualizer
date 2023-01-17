@@ -158,7 +158,7 @@ async function heapify(arr, n, i) {
     }
 }
 
-const heapSortbtn = document.querySelector(".heapSort");
+heapSortbtn = document.querySelector(".heapSort");
 heapSortbtn.addEventListener("click", async function () {
     let arr = document.querySelectorAll('.bar');
     let n = arr.length;
